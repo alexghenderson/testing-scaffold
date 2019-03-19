@@ -1,0 +1,11 @@
+{
+  "linters": {
+    "**/*.js": [
+      "jest --findRelatedTests"
+    ],
+    "src/**/*.+(js|jsx|json|graphql)": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

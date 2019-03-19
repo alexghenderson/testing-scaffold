@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": "2018"
+  },
+  "plugins": ["eslint-plugin-cypress"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "eslint-config-prettier"],
+  "env": {
+    "browser": true,
+    "cypress/globals": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
